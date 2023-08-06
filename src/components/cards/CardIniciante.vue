@@ -20,7 +20,9 @@
         <v-card-subtitle> Guia do iniciante </v-card-subtitle>
 
         <v-card-actions>
-          <v-btn color="orange-lighten-2" variant="text" to="/iniciante"> Explore </v-btn>
+          <v-btn color="orange-lighten-2" variant="text" to="/iniciante">
+            Explore
+          </v-btn>
 
           <v-spacer></v-spacer>
 
@@ -35,12 +37,11 @@
             <v-divider></v-divider>
 
             <v-card-text>
-              Aqui você vai você recebe algumas orientações, dicas de como
-              começar, o que estudar, alguns fundamentos e algumas conversas
-              sobre o mercado.
+              Aqui, você encontrará orientações essenciais para começar sua
+              jornada, dicas valiosas sobre por onde começar, os aspectos
+              fundamentais a estudar e diálogos esclarecedores sobre o cenário
+              de mercado técnologico.
             </v-card-text>
-          
-
           </div>
         </v-expand-transition>
       </v-card>

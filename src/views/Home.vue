@@ -4,19 +4,13 @@
     <br />
     <p>
       Seja parte da comunidade Desfaveados, onde apoiamos aqueles que vieram das
-      comunidades, ajudando-os a se inserir no mercado de trabalho. Nossa
+      comunidades, ajudando-os a se inserir no mercado de trabalho de técnologia. Nossa
       abordagem estratégica é fornecer trilhas de aprendizado gratuitas para
       você.
     </p>
     <br /><br />
 
-    <div class="image-container">
-      <img
-        width="70%"
-        src="https://img.freepik.com/premium-photo/polygonal-brain-shape-artificial-intelligence-with-various-icon-smart-city-internet-things_41418-4817.jpg?w=1380"
-        alt="Descrição da Imagem"
-      />
-    </div>
+    <CarrocelHome />
     <br />
 
     <div class="text-left justify-center">
@@ -39,12 +33,13 @@
 </template>
 
 <script >
+import CarrocelHome from "@/components/CarrocelHome.vue";
 import CardIniciante from "../components/cards/CardIniciante.vue";
 import CardsBack from "../components/cards/CardsBack.vue";
 import CardsFront from "../components/cards/CardsFront.vue";
 //
 export default {
-  components: { CardsBack, CardsFront, CardIniciante },
+  components: { CardsBack, CardsFront, CardIniciante, CarrocelHome },
   data: () => ({
     show: false,
   }),

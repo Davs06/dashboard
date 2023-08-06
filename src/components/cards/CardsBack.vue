@@ -19,7 +19,9 @@
         <v-card-subtitle> Cursos youtube </v-card-subtitle>
 
         <v-card-actions>
-          <v-btn color="orange-lighten-2" variant="text" to="/back"> Explore </v-btn>
+          <v-btn color="orange-lighten-2" variant="text" to="/back">
+            Explore
+          </v-btn>
 
           <v-spacer></v-spacer>
 
@@ -34,9 +36,10 @@
             <v-divider></v-divider>
 
             <v-card-text>
-              Aqui você vai encontrar uma trilha de aprendizado gratuitamente,
-              sendo esses cursos vindos do youtube seleceionados por nós para
-              ter o melhor.
+              Aqui, disponibilizamos uma rota de aprendizado sem custos,
+              composta por cursos escolhidos a dedo do YouTube. Estes cursos
+              foram selecionados por nós para oferecer o conteúdo mais relevante
+              e valioso.
             </v-card-text>
           </div>
         </v-expand-transition>
