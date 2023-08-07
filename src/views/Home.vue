@@ -1,6 +1,6 @@
 <template>
   <v-container class="d-flex flex-column text-center justify-center">
-    <h1>Bem-vindo ao Desfaveados</h1>
+    <h1>Bem-vindo ao Desfavelados</h1>
     <br />
     <p>
       Seja parte da comunidade Desfaveados, onde apoiamos aqueles que vieram das
